@@ -8,5 +8,7 @@ document.addEventListener('click', (e)=>{
     if(el === menuBtn){
         clicked = !clicked ? clicked = true : clicked = false;
         return !clicked ? hiddenNav.classList.add("showed") : hiddenNav.classList.remove("showed");
-    };
+    }else{
+        hiddenNav.classList.remove('showed');
+    }
 });
