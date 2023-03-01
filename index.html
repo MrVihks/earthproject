@@ -24,11 +24,11 @@
             <i class="fa-solid fa-bars" id="menu"></i>
         </nav>
         <nav class="hiddennav">
-            <a>O que são ?</a>
-            <a>Para que servem ?</a>
-            <a>Aplicações</a>
-            <a>Extração</a>
-            <a>Impactos ambientais</a>
+            <a href="#what">O que são ?</a>
+            <a href="#theydo">Para que servem ?</a>
+            <a href="#applications">Aplicações</a>
+            <a href="#extractions">Extração</a>
+            <a href="#impacts">Impactos ambientais</a>
         </nav>
     </header>
     <main>
@@ -36,14 +36,14 @@
             <h1>Elementos Terras Raras</h1>
             <p>Neste site abordaremos:</p>
             <ul class="list">
-                <li class="what">O que são ?</li>
+                <li>O que são ?</li>
                 <li>Para que servem ?</li>
                 <li>Aplicações</li>
                 <li>Extração</li>
                 <li>Impactos ambientais</li>
             </ul>
         </section>
-        <section class="whatissection">
+        <section class="whatissection" id="what">
             <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg"
                 class="transition duration-300 ease-in-out delay-150">
                 <style>
@@ -93,7 +93,7 @@
                 <img src="images/terras.jpeg" class="earthimg">
             </article>
         </section>
-        <section class="theydosection">
+        <section class="applications" id="applications">
             <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg"
                 class="transition duration-300 ease-in-out delay-150">
                 <style>
@@ -166,7 +166,7 @@
                 </path>
             </svg>
             <article class="whattheydo">
-                <h1>Para que servem ?</h1>
+                <h1>Aplicações</h1>
                 <p>Os ETR têm uma variedade de aplicações em tecnologia, eletrônicos, indústria, medicina e defesa.
                     Algumas das principais utilizações incluem:</p>
                 <ul class="theydolist">
@@ -186,10 +186,58 @@
                 </ul>
             </article>
         </section>
-        <section>
+        <section class="theydosection" id="theydo">
+            <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg"
+                class="transition duration-300 ease-in-out delay-150">
+                <style>
+                    .path-0 {
+                        animation: pathAnim-0 4s;
+                        animation-timing-function: linear;
+                        animation-iteration-count: infinite;
+                    }
 
+                    @keyframes pathAnim-0 {
+                        0% {
+                            d: path("M 0,400 C 0,400 0,200 0,200 C 98.22966507177034,204.73684210526315 196.45933014354068,209.4736842105263 299,194 C 401.5406698564593,178.5263157894737 508.3923444976077,142.8421052631579 597,143 C 685.6076555023923,143.1578947368421 755.9712918660288,179.15789473684214 853,187 C 950.0287081339712,194.84210526315786 1073.7224880382776,174.52631578947367 1176,172 C 1278.2775119617224,169.47368421052633 1359.1387559808613,184.73684210526318 1440,200 C 1440,200 1440,400 1440,400 Z");
+                        }
+
+                        25% {
+                            d: path("M 0,400 C 0,400 0,200 0,200 C 75.92344497607655,202.01913875598086 151.8468899521531,204.03827751196172 254,207 C 356.1531100478469,209.96172248803828 484.535885167464,213.86602870813397 596,219 C 707.464114832536,224.13397129186603 802.0095693779906,230.4976076555024 889,212 C 975.9904306220094,193.5023923444976 1055.4258373205741,150.14354066985646 1146,144 C 1236.5741626794259,137.85645933014354 1338.287081339713,168.92822966507177 1440,200 C 1440,200 1440,400 1440,400 Z");
+                        }
+
+                        50% {
+                            d: path("M 0,400 C 0,400 0,200 0,200 C 92.97607655502392,224.68899521531102 185.95215311004785,249.37799043062202 281,247 C 376.04784688995215,244.62200956937798 473.16746411483257,215.17703349282294 576,203 C 678.8325358851674,190.82296650717706 787.377990430622,195.91387559808615 888,199 C 988.622009569378,202.08612440191385 1081.3205741626793,203.1674641148325 1172,203 C 1262.6794258373207,202.8325358851675 1351.3397129186603,201.41626794258374 1440,200 C 1440,200 1440,400 1440,400 Z");
+                        }
+
+                        75% {
+                            d: path("M 0,400 C 0,400 0,200 0,200 C 117.10047846889952,216.61244019138758 234.20095693779905,233.22488038277513 338,225 C 441.79904306220095,216.77511961722487 532.2966507177033,183.7129186602871 624,188 C 715.7033492822967,192.2870813397129 808.6124401913877,233.92344497607655 903,243 C 997.3875598086123,252.07655502392345 1093.2535885167463,228.5933014354067 1183,216 C 1272.7464114832537,203.4066985645933 1356.3732057416269,201.70334928229664 1440,200 C 1440,200 1440,400 1440,400 Z");
+                        }
+
+                        100% {
+                            d: path("M 0,400 C 0,400 0,200 0,200 C 98.22966507177034,204.73684210526315 196.45933014354068,209.4736842105263 299,194 C 401.5406698564593,178.5263157894737 508.3923444976077,142.8421052631579 597,143 C 685.6076555023923,143.1578947368421 755.9712918660288,179.15789473684214 853,187 C 950.0287081339712,194.84210526315786 1073.7224880382776,174.52631578947367 1176,172 C 1278.2775119617224,169.47368421052633 1359.1387559808613,184.73684210526318 1440,200 C 1440,200 1440,400 1440,400 Z");
+                        }
+                    }
+                </style>
+                <path
+                    d="M 0,400 C 0,400 0,200 0,200 C 98.22966507177034,204.73684210526315 196.45933014354068,209.4736842105263 299,194 C 401.5406698564593,178.5263157894737 508.3923444976077,142.8421052631579 597,143 C 685.6076555023923,143.1578947368421 755.9712918660288,179.15789473684214 853,187 C 950.0287081339712,194.84210526315786 1073.7224880382776,174.52631578947367 1176,172 C 1278.2775119617224,169.47368421052633 1359.1387559808613,184.73684210526318 1440,200 C 1440,200 1440,400 1440,400 Z"
+                    stroke="none" stroke-width="0" fill="#ebebeb" fill-opacity="1"
+                    class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)">
+                </path>
+            </svg>
+            <article class="whatis">
+                <h1>Para que eles servem ?</h1>
+                <p>É um minério utilizado frequentemente em lentes seja de câmeras ou de telescópios, para maior
+                    acuidade visual. Além disso, é bem importante para o refinamento de petróleo, no contexto de um
+                    processo que se chama de craqueamento.</p>
+            </article>
         </section>
     </main>
+    <footer>
+        <section style="min-height:5vh; text-align: center;">
+            <h3>Site feito por Vinicius :)</h1>
+            <p>Com a ajuda de: Miguel e Victor.</p>
+        </section>
+    </footer>
     <script src="script.js"></script>
 </body>
 

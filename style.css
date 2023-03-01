@@ -18,6 +18,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    color:var(--light-color);
+    text-decoration: none;
+}
 section:nth-child(even){
     background-color:var(--background-color2);
     min-height: 130vh;
@@ -63,9 +67,12 @@ h1{
     padding-top: 2rem;
     text-align: center;
 }
-.list,li{
+.list{
     padding:1rem;
     margin: 1rem;
+}
+li{
+    padding: 1.5rem;
 }
 
 #menu{
@@ -148,7 +155,6 @@ h1{
         margin: 1rem;
     }
     .whattheydo h1{
-        margin-bottom: 3rem;
         margin: 1rem;
         font-size: 28px;
     }
