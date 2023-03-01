@@ -1,4 +1,5 @@
 let clicked = false; 
+
 document.addEventListener('click', (e)=>{
     const el = e.target;
     const menuBtn = document.querySelector('#menu');

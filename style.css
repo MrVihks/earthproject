@@ -37,6 +37,9 @@ section{
     text-align: center;
     font-weight: 600;
 }
+.homesection p{
+    text-align: center;
+}
 .whatis{
     color: var(--light-color);
     margin-top:4rem;
@@ -44,6 +47,10 @@ section{
 .whatis h1{
     text-align: center;
     font-size: 1.5rem;
+    margin-top:2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
 }
 .whatis p{
     text-align: justify;
@@ -52,7 +59,7 @@ section{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-h1,p{
+h1{
     padding-top: 2rem;
     text-align: center;
 }
@@ -95,6 +102,15 @@ h1,p{
         display:flex;
         margin: auto;
     }
+    .earthimg{
+        width: auto;
+        border-radius: 0.6rem;
+        box-shadow: 1px 0.2px 10px 3px var(--dark-color);
+        height: 350px;
+        display: flex;
+        margin: auto;
+        margin-top:5rem;
+    }
 }
 @media(max-width:900px){
     .homesection{
@@ -121,6 +137,20 @@ h1,p{
         display: flex;
         margin: auto;
         margin-top:5rem;
+    }
+    .whattheydo{
+        text-align: justify;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+    .whattheydo p{
+        margin-top: 2rem;
+        margin: 1rem;
+    }
+    .whattheydo h1{
+        margin-bottom: 3rem;
+        margin: 1rem;
+        font-size: 28px;
     }
 }
 @keyframes transition {
